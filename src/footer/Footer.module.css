@@ -1,0 +1,17 @@
+.footer{
+    background-color: #fdff99;
+    height: 200px;
+}
+.footerContainer {
+display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.footerBlock {
+    width: 500px;
+    height: 50px;
+    border: 1px solid #ff008a;
+}
+.copyrightTitle {
+
+}
