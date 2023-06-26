@@ -1,17 +1,31 @@
-.footer{
+.footer {
     background-color: #fdff99;
-    height: 200px;
 }
+
 .footerContainer {
-display: flex;
+    display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    padding: 50px 0;
 }
-.footerBlock {
-    width: 500px;
-    height: 50px;
+.name {
+    margin: 10px;
+    background-color: #ff008a;
+}
+.socialBlock {
+    display: flex;
+    justify-content: space-between;
+    width: 280px;
     border: 1px solid #ff008a;
+    margin-bottom: 10px;
 }
-.copyrightTitle {
 
+.socialItem {
+    width: 60px;
+    height: 60px;
+    background-color: #ffb9d3;
+}
+
+.copyrightTitle {
+    background-color: #ff008a;
 }

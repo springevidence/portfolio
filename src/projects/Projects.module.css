@@ -1,6 +1,7 @@
 .projectBlock {
-    height: 100vh;
+    min-height: 100vh;
     background-color: #fdff99;
+    padding: 50px 0;
 }
 
 .projectsContainer {

@@ -1,40 +1,39 @@
 .project {
-    width: 400px;
+    width: 350px;
     background-color: #ffb9d3;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
 }
-.imageButtonWrapper {
-    position: relative;
-}
-.img {
-    width: 100%;
-    height: auto;
-}
-/*.button {*/
-/*    position: absolute;*/
-/*    top: 50%;*/
-/*    left: 50%;*/
-/*    transform: translate(-50%, -50%);*/
-/*    -ms-transform: translate(-50%, -50%);*/
-/*    background-color: #ff6ebc;*/
-/*    color: black;*/
-/*    font-size: 16px;*/
-/*    padding: 12px 24px;*/
-/*    border: none;*/
-/*    cursor: pointer;*/
-/*    border-radius: 5px;*/
-/*}*/
-.button:hover {
-    background-color: #ffb9d3;
 
+.imageButtonWrapper {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://images.steelcase.com/image/upload/c_fill,q_auto,f_auto,h_656,w_1166/v1584641917/www.steelcase.com/2020/03/19/20-0136326.jpg');
+    background-size: cover;
+    background-position: center;
 }
+
+.link {
+    background-color: #ff6ebc;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.link:hover {
+    background-color: #ffb9d3;
+}
+
 .title {
+    margin: 5px;
+    background-color: #ff6ebc;
 
 }
 
 .description {
-
+    margin: 5px;
+    background-color: #ff6ebc;
 }

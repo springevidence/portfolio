@@ -11,9 +11,7 @@ const Main = () => {
                     <h1>Меня зовут Тюрина Виктория</h1>
                     <p>И я Frontend-разработчик</p>
                 </div>
-                <div className={style.photo}>
-                    <img src="https://cdn2.iconfinder.com/data/icons/peppyicons/512/women_yellow-512.png" alt={"my photo"}/>
-                </div>
+                <div className={style.photoContainer}></div>
             </div>
         </div>
     );

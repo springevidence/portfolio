@@ -1,15 +1,20 @@
 .mainBlock {
     background-color: #fdff99;
-    height: 100vh;
-}
+    min-height: 100vh;
+    padding: 50px 0;
 
+}
 .greeting {
     width: 300px;
     background-color: #ffb9d3;
 }
 
-.photo img{
+.photoContainer{
     width: 300px;
-    height: 300px;
+    height: 320px;
     background-color: #ffb9d3;
+    background-image: url('https://cdn2.iconfinder.com/data/icons/peppyicons/512/women_yellow-512.png');
+    background-size: cover;
+    background-position: center;
+
 }
