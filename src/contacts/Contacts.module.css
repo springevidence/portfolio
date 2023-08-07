@@ -2,7 +2,6 @@
     background-color: #ffb9d3;
     height: 100vh;
     padding: 50px 0;
-
 }
 
 .contactsContainer {
@@ -31,11 +30,12 @@ textarea{
     min-height: 150px;
     padding: 5px;
 }
-.link {
+.button {
     background-color: #fdff99;
     padding: 10px;
     border-radius: 5px;
     text-decoration: none;
+    border: none;
 }
 .link:hover {
     background-color: #ff008a;
