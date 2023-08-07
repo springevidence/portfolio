@@ -1,0 +1,24 @@
+.title {
+    background-color: #ffb9d3;
+    font-weight: 700;
+    color: #1f1f1f;
+    font-size: 30px;
+    line-height: 1.26em;
+    font-family: 'Jost', sans-serif;
+    position: relative;
+}
+
+.title h2 {
+    margin: 0;
+
+}
+.title ::before {
+    content: '';
+    background: #cf2e2e;
+    position: absolute;
+    width: 55px;
+    height: 1px;
+    bottom: -20px;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
