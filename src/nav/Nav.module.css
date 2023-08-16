@@ -1,9 +1,0 @@
-.nav {
-    border: 1px solid #ff008a;
-    display: flex;
-    width: 300px;
-    justify-content: space-between;
-}
-.link {
-    text-decoration: none;
-}

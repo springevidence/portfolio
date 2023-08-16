@@ -1,0 +1,26 @@
+@import '../../styles/sass/variables';
+
+.title {
+  //border: 1px solid #ff008a;
+  font-weight: 700;
+  color: $textColor;
+  font-size: 40px;
+  line-height: 1.26em;
+  font-family: 'Comfortaa', cursive;
+  position: relative;
+  .title h2 {
+    margin: 0;
+  }
+  & ::before {
+    content: '';
+    background: #cf2e2e;
+    position: absolute;
+    width: 100%;
+    height: 1.5px;
+    bottom: 25px;
+    left: 50%;
+    transform: translate(-50%, 50%);
+  }
+
+}
+

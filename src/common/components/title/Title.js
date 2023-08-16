@@ -1,10 +1,10 @@
 import React from 'react';
-import style from "../title/Title.module.css";
+import style from "./Title.module.scss";
 
-const Title = () => {
+const Title = (props) => {
     return (
         <div className={style.title}>
-            <h2>Мои проекты</h2>
+            <h2>{props.text}</h2>
         </div>
     );
 };

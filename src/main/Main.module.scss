@@ -1,0 +1,26 @@
+@import '../common/styles/sass/variables';
+
+.mainBlock {
+  //border: 1px solid #ff008a;
+  background-color: $backgroundColor;
+  min-height: 650px;
+  padding: 50px 0;
+  font-family: $fontFamily;
+  color: $textColor;
+
+  .greeting {
+    width: 300px;
+    font-size: 22px;
+  }
+
+  .photoContainer {
+    width: 300px;
+    height: 400px;
+    border-radius: 30px;
+    //background-image: url('https://cdn2.iconfinder.com/data/icons/peppyicons/512/women_yellow-512.png');
+    background-size: cover;
+    background-color: $textColor;
+    background-position: center;
+  }
+}
+

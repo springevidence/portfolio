@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './Contacts.module.css'
+import style from './Contacts.module.scss'
 import styleContainer from "../common/styles/Container.module.css";
 const Contacts = () => {
     return (
@@ -11,7 +11,6 @@ const Contacts = () => {
                     <input type="text"/>
                     <textarea></textarea>
                 </form>
-                {/*<a href={'#'} className={style.link}>Отправить</a>*/}
                 <button type={'submit'} className={style.button}>Отправить</button>
             </div>
         </div>
