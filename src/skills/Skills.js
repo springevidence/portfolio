@@ -3,12 +3,12 @@ import style from './Skills.module.scss'
 import styleContainer from '../common/styles/Container.module.css'
 import SkillItem from "./skill/SkillItem";
 import Title from "../common/components/title/Title";
-import htmlImage from '../assets/image/html.png';
+import htmlImage from '../assets/image/html.svg';
 import cssImage from '../assets/image/css.svg';
 import jsImage from '../assets/image/javascript.svg';
-import reactImage from '../assets/image/react.png';
-import reduxImage from '../assets/image/redux.png';
-import storybookImage from '../assets/image/storybook.png';
+import reactImage from '../assets/image/react.svg';
+import reduxImage from '../assets/image/redux.svg';
+import storybookImage from '../assets/image/storybook.svg';
 
 
 
