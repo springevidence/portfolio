@@ -1,22 +1,23 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.5b8b13ad.css",
-    "main.js": "/portfolio/static/js/main.cfb1ab50.js",
+    "main.js": "/portfolio/static/js/main.3e33be22.js",
     "static/js/787.28cb0dcd.chunk.js": "/portfolio/static/js/787.28cb0dcd.chunk.js",
     "static/media/todolist.jpeg": "/portfolio/static/media/todolist.119c6f5e3d034e302d71.jpeg",
     "static/media/social-network.png": "/portfolio/static/media/social-network.18ff4ab8d8a4ea725047.png",
-    "static/media/react.png": "/portfolio/static/media/react.283bf42c605cfc49cf49.png",
-    "static/media/redux.png": "/portfolio/static/media/redux.b3b939c66aecf7d53967.png",
-    "static/media/html.png": "/portfolio/static/media/html.94972f53c025a8fb7e2b.png",
+    "static/media/react.svg": "/portfolio/static/media/react.b092ad79d6b9f2bf199975b337138927.svg",
+    "static/media/javascript.svg": "/portfolio/static/media/javascript.4f2fd1f4783cc446eeafd5cee88f2340.svg",
+    "static/media/redux.svg": "/portfolio/static/media/redux.73ad51cdc331c548907d7d438fe443d4.svg",
+    "static/media/css.svg": "/portfolio/static/media/css.50ae92afcfb5437d79cba5c9870f847d.svg",
+    "static/media/html.svg": "/portfolio/static/media/html.4ded3b81e4ee09b3574ba040f4e69cd0.svg",
     "index.html": "/portfolio/index.html",
-    "static/media/css.svg": "/portfolio/static/media/css.4e47c3122b8d2476a02f97dcfcb28640.svg",
-    "static/media/javascript.svg": "/portfolio/static/media/javascript.b879f838faf1cb951d1c2230fd933a39.svg",
+    "static/media/storybook.svg": "/portfolio/static/media/storybook.8113d6250b36a108ecf79cca7c37dbff.svg",
     "main.5b8b13ad.css.map": "/portfolio/static/css/main.5b8b13ad.css.map",
-    "main.cfb1ab50.js.map": "/portfolio/static/js/main.cfb1ab50.js.map",
+    "main.3e33be22.js.map": "/portfolio/static/js/main.3e33be22.js.map",
     "787.28cb0dcd.chunk.js.map": "/portfolio/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5b8b13ad.css",
-    "static/js/main.cfb1ab50.js"
+    "static/js/main.3e33be22.js"
   ]
 }
