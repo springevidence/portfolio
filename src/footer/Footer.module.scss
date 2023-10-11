@@ -1,15 +1,15 @@
 @import '../common/styles/sass/variables';
+@import '../common/styles/sass/mixins';
 
 .footer {
   font-family: $fontFamily;
   color: $textColor;
   background-color: $backgroundColor;
 
-  .footerContainer {
-    display: flex;
+  .container {
     flex-direction: column;
-    justify-content: flex-start;
     padding: 50px 0;
+    @include container();
 
     .name {
       margin: 10px;

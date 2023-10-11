@@ -1,10 +1,9 @@
 import React from 'react';
 import style from './Contacts.module.scss'
-import styleContainer from "../common/styles/Container.module.css";
 const Contacts = () => {
     return (
         <div className={style.contactsBlock}>
-            <div className={`${styleContainer.container} ${style.contactsContainer}`}>
+            <div className={style.container}>
                 <h2 className={style.title}>Контакты</h2>
                 <form className={style.contactForm}>
                     <input type="text"/>

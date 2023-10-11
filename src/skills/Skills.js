@@ -1,6 +1,5 @@
 import React from 'react';
 import style from './Skills.module.scss'
-import styleContainer from '../common/styles/Container.module.css'
 import SkillItem from "./skill/SkillItem";
 import Title from "../common/components/title/Title";
 import htmlImage from '../assets/image/html.svg';
@@ -34,7 +33,7 @@ const Skills = () => {
     }
     return (
         <div className={style.skillsBlock}>
-            <div className={`${styleContainer.container} ${style.skillsContainer}`}>
+            <div className={style.container}>
                 <Title text={'Навыки'}/>
                 <div className={style.skills}>
                     <SkillItem style={htmlImg} title={'HTML'}   description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'}/>

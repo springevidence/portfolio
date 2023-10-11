@@ -1,4 +1,5 @@
 @import '../common/styles/sass/variables';
+@import '../common/styles/sass/mixins';
 
 .projectBlock {
   //border: 1px solid #ff008a;
@@ -6,9 +7,9 @@
   background: $backgroundColor;
   padding: 50px 0;
 
-  .projectsContainer {
+  .container {
     flex-direction: column;
-    justify-content: flex-start;
+    @include container();
 
     .projects {
       //border: 1px solid black;
