@@ -27,6 +27,11 @@
         height: 60px;
         border-radius: 7px;
         background-color: $textColor;
+        img {
+          width: 45px;
+          height: 45px;
+          margin: 7.5px 0 0 7.5px;
+        }
       }
     }
     .copyrightTitle {
