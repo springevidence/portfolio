@@ -15,7 +15,7 @@ const Projects = () => {
         borderRadius: '20px'
     }
     return (
-        <div className={style.projectBlock}>
+        <div id='projects' className={style.projectBlock}>
             <div className={style.container}>
                 <Title text={'Мои проекты'}/>
                 <div className={style.projects}>

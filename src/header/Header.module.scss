@@ -2,8 +2,14 @@
 
 .header {
   height: 80px;
-  background-color: $backgroundColor;
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  border-radius: 25px;
+  position: fixed;
+  z-index: 10;
+  left: 0;
+  right: 0;
+  background-color: #e08c83;
+  opacity: 0.9;
 }
