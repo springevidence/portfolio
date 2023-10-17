@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import style from './BurgerNav.module.scss'
 import {Link} from 'react-scroll';
 
+
 const BurgerNav = () => {
     const [isBurgerNavOpen, setBurgerNavOpen] = useState(false)
     const showBurgerNav = () => {
@@ -44,7 +45,14 @@ const BurgerNav = () => {
                       duration={500}
                 >Контакты</Link>
             </div>
-            <div onClick={showBurgerNav} className={style.burgerBtn}></div>
+            <div onClick={showBurgerNav} className={style.burgerBtn}>
+                <div className={isBurgerNavOpen? `${style.wrapper} ${style.active}` : style.wrapper}>
+                    <span className={style.menuLine}></span>
+                    <span className={style.menuLine}></span>
+                    <span className={style.menuLine}></span>
+                </div>
+
+            </div>
         </div>
     );
 };

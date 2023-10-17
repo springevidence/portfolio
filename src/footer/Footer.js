@@ -25,7 +25,6 @@ const Footer = () => {
                             <img src={linkedinIcon} alt=""/>
                         </a>
                     </div>
-                    {/*<div className={style.socialItem}></div>*/}
                 </div>
                 <span className={style.copyrightTitle}>© 2023 Все права защищены</span>
             </div>
