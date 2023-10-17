@@ -11,12 +11,12 @@ const Footer = () => {
                 <span className={style.name}>Тюрина Виктория</span>
                 <div className={style.socialBlock}>
                     <div className={style.socialItem}>
-                        <a href={''}>
+                        <a href={' https://t.me/afireinsideee'} target={'_blank'}>
                             <img src={telegramIcon} alt=""/>
                         </a>
                     </div>
                     <div className={style.socialItem}>
-                        <a href={''}>
+                        <a href={'https://instagram.com/viktoria_tiurina?igshid=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr'} target={'_blank'}>
                             <img src={instagramIcon} alt=""/>
                         </a>
                     </div>

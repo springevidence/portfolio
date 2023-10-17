@@ -7,7 +7,7 @@ const ProjectItem = (props) => {
     return (
         <div className={style.project}>
             <div style={props.style} className={style.imageButtonWrapper}>
-                <a href={'#'} className={style.link}>Смотреть</a>
+                <a href={props.href} target={'_blank'} className={style.link}>Смотреть</a>
             </div>
             <div className={style.projectInfo}>
                 <h3 className={style.title}>{props.title}</h3>
